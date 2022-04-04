@@ -1,0 +1,94 @@
+/* divide */
+.line-in-middle {
+    width:400px;
+    height:320px;
+      background: linear-gradient(to right, 
+                                   
+        transparent calc(50% - 0.81px), 
+        #ccc calc(50% - 0.8px), 
+        #ccc calc(50% + 0.8px), 
+        transparent calc(50% + 0.81px), 
+        transparent 100%); 
+        
+    }
+    @media only screen and (max-width: 800px) {
+        .line-in-middle{
+            display: none;
+        } 
+    }
+
+    .searchBox{
+        position: relative;
+        width: 100%;
+        margin-top: 25px;
+    } 
+    
+    .searchBox .search{
+        width: 100%;
+        padding: 13px;
+        padding-left: 45px;
+        padding-right: 60px;
+        border-radius: 10px;
+        border: 1px solid #dfe1e5;
+        height: 40px;
+    }
+    
+    .icons{
+        position: absolute;
+        top: 0;
+        align-items: center;
+    }
+
+/* font family */
+.font{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* buttons hover effect */
+.b1:hover {
+    background-color: rgb(66, 61, 61);
+    color: white;
+}
+
+img {
+    opacity: 1.0;
+}
+img:hover {
+    opacity: 0.5;
+}
+
+/* Word Spacing */
+.space{
+    word-spacing: 4px;
+    
+}
+.atb-site,.nav-link{
+    font-size: 12px;
+    }
+@media only screen and (max-width: 700px) {
+    .atb-login-text {
+        font-size:14px;
+    } 
+    
+    .atb-personal {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .atb-site .nav-link {
+        font-size: 8px;
+    }
+    
+    .atb-site ul li:nth-child(3) {
+        display: none;
+    }
+.atb-site ul li:nth-child(4) {
+        display: none;
+    }}
+ 
+   
+   
+    
+
+      
+   
